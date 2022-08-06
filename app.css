@@ -1885,7 +1885,7 @@ div[class^=guify-container] {
 	transform: translateZ(0);
 	mask-image: -webkit-radial-gradient(#fff, #000);
 	color: #000;
-	background-color: #ffe500;
+	background-color: #fff;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95)
 }
 
@@ -1936,8 +1936,8 @@ div[class^=guify-container] {
 
 .is-no-touchevents .o-button:not(.is-disabled):hover,
 .is-no-touchevents .o-button:not(:disabled):hover {
-	color: #ffe500;
-	background-color: #000;
+	color: #E14B4D;
+	background-color: #fff;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
 
@@ -1949,13 +1949,13 @@ div[class^=guify-container] {
 
 .is-no-touchevents .o-button:not(.is-disabled):hover svg,
 .is-no-touchevents .o-button:not(:disabled):hover svg {
-	fill: #ffe500
+	fill: #E14B4D
 }
 
 .is-tab-mode .o-button:not(.is-disabled):focus,
 .is-tab-mode .o-button:not(:disabled):focus {
-	color: #ffe500;
-	background-color: #000;
+	color: #E14B4D;
+	background-color: #fff;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
 
@@ -1967,12 +1967,12 @@ div[class^=guify-container] {
 
 .is-tab-mode .o-button:not(.is-disabled):focus svg,
 .is-tab-mode .o-button:not(:disabled):focus svg {
-	fill: #ffe500
+	fill: #E14B4D
 }
 
 .o-button.is-open {
-	color: #ffe500;
-	background-color: #000;
+	color: #E14B4D;
+	background-color: #fff;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
 
@@ -1982,7 +1982,7 @@ div[class^=guify-container] {
 }
 
 .o-button.is-open svg {
-	fill: #ffe500
+	fill: #E14B4D
 }
 
 .o-icon {
@@ -1995,12 +1995,12 @@ div[class^=guify-container] {
 	border: 2px solid #000;
 	border-radius: 50%;
 	overflow: hidden;
-	mask-image: -webkit-radial-gradient(#fff, #000);
+	mask-image: -webkit-radial-gradient(#fff, #fff);
 	font-size: max(14px, .972vw);
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #000;
-	background-color: #ffe500;
+	color: #ffff;
+	background-color: #E14B4D;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95)
 }
 
@@ -2020,7 +2020,7 @@ div[class^=guify-container] {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
-	fill: #000;
+	fill: #fff;
 	transition: fill .3s cubic-bezier(.445, .05, .55, .95)
 }
 
@@ -4277,7 +4277,7 @@ div[class^=guify-container] {
 	width: 100%;
 	height: 100vh;
 	padding-top: 100px;
-	background-color: #ffe500;
+	background-color: #e87577;
 	transform: translateX(-100%) translateZ(0)
 }
 

@@ -76,12 +76,12 @@
 
 //
 
-//web Json
+//web J
 (window.webpackJsonp = window.webpackJsonp || []).push([
 	[2],
 	[function(t, e, n) {
 		"use strict";
-// listeners
+
 		function i(t, e) {
 			for (var n = 0; n < e.length; n++) {
 				var i = e[n];
@@ -202,7 +202,6 @@
 		})), n.d(e, "h", (function() {
 			return wt
 		}));
-        // animation website
 		var s, a, u, l, c, h, f, d, p, g, v, m, y, b, w, _, x, D, E, k, C, T, O, S, A, F, M, P = {
 				autoSleep: 120,
 				force3D: "auto",
@@ -17266,10 +17265,10 @@
 					return function(t, e) {
 						if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
 					}(this, i), (e = r.call(this, t)).onProductsClick = function(t) {
-						t.preventDefault(), "products" !== e.activeList && (e.experiences.classList.remove("is-active"), e.experiencesBtn.classList.remove("is-open"), e.products.scrollTop = 0, e.products.classList.add("is-active"), e.productsBtn.classList.add("is-open"), e.activeList = "products")
+						t.preventDefault(), "products" !== e.activeList && (e.products.scrollTop = 0, e.products.classList.add("is-active"), e.productsBtn.classList.add("is-open"), e.activeList = "products")
 					}, e.onExperiencesClick = function(t) {
-						t.preventDefault(), "experiences" !== e.activeList && (e.products.classList.remove("is-active"), e.productsBtn.classList.remove("is-open"), e.experiences.scrollTop = 0, e.experiences.classList.add("is-active"), e.experiencesBtn.classList.add("is-open"), e.activeList = "experiences")
-					}, e.toggle = e.toggle.bind(G(e)), e.open = e.open.bind(G(e)), e.close = e.close.bind(G(e)), e.content = e.el.querySelector(".js-mobileNav-content"), e.productsBtn = e.el.querySelector(".js-mobileNav-productsBtn"), e.experiencesBtn = e.el.querySelector(".js-mobileNav-experiencesBtn"), e.products = e.el.querySelector(".js-mobileNav-products"), e.experiences = e.el.querySelector(".js-mobileNav-experiences"), e.isOpen = !1, e.activeList = "products", e.productsBtn.addEventListener("click", e.onProductsClick), e.experiencesBtn.addEventListener("click", e.onExperiencesClick), e
+						t.preventDefault(), "experiences" !== e.activeList && (e.products.classList.remove("is-active"), e.productsBtn.classList.remove("is-open"))
+					}, e.toggle = e.toggle.bind(G(e)), e.open = e.open.bind(G(e)), e.close = e.close.bind(G(e)), e.content = e.el.querySelector(".js-mobileNav-content"), e.productsBtn = e.el.querySelector(".js-mobileNav-productsBtn"), e.experiencesBtn = e.el.querySelector(".js-mobileNav-experiencesBtn"), e.products = e.el.querySelector(".js-mobileNav-products"), e.experiences = e.el.querySelector(".js-mobileNav-experiences"), e.isOpen = !1, e.activeList = "products",  e
 				}
 				return e = i, (n = [{
 					key: "setTrigger",
@@ -17391,12 +17390,12 @@
 						}, e.onExperiencesClick = function(t) {
 							t.preventDefault(), t.target.focus(), e.productsDropdown.isOpen && e.productsDropdown.close(!1), e.experiencesDropdown.toggle()
 						}, e.onBurgerClick = function(t) {
-							t.preventDefault(), e.mobileNav.toggle()
+							e.mobileNav.toggle()
 						}, e.onPageAfterLeave = function(t) {
 							e.productsBtn.focus(), e.productsDropdown.isOpen && e.productsDropdown.close(!0, !1), e.experiencesDropdown.isOpen && e.experiencesDropdown.close(!0, !1), e.mobileNav.isOpen && e.mobileNav.close()
 						}, e.onPageAfter = function(t) {
 							e.nextContainer = document.querySelector('[data-barba="container"]'), e.nextContainer.dataset.url && (e.langSwitch.href = e.nextContainer.dataset.url)
-						}, e.productsBtn = e.el.querySelector(".js-products-btn"), e.experiencesBtn = e.el.querySelector(".js-experiences-btn"), e.burgerBtn = e.el.querySelector(".js-burger-btn"), e.langSwitch = e.el.querySelector(".js-lang-switch"), e.nextContainer = null, e.productsBtn.addEventListener("click", e.onProductsClick), e.experiencesBtn.addEventListener("click", e.onExperiencesClick), e.burgerBtn.addEventListener("click", e.onBurgerClick), s.a.addListener(a.a.ROUTER_AFTER_LEAVE, e.onPageAfterLeave), s.a.addListener(a.a.ROUTER_AFTER, e.onPageAfter), e
+						}, e.productsBtn = e.el.querySelector(".js-products-btn"), e.experiencesBtn = e.el.querySelector(".js-experiences-btn"), e.burgerBtn = e.el.querySelector(".js-burger-btn"), e.langSwitch = e.el.querySelector(".js-lang-switch"), e.nextContainer = null, e.burgerBtn.addEventListener("cl;ick", e.onBurgerClick), s.a.addListener(a.a.ROUTER_AFTER_LEAVE, e.onPageAfterLeave), s.a.addListener(a.a.ROUTER_AFTER, e.onPageAfter), e
 					}
 					return e = c, (n = [{
 						key: "init",
@@ -20702,7 +20701,7 @@
 							var e;
 							return function(t, e) {
 								if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
-							}(this, i), e = r.call(this, t), h.a.dispatch(b.a.BG_SET_COLOR, "white"), document.documentElement.style.setProperty("--bg-color", "white"), document.documentElement.style.setProperty("--theme-color", "var(--light)"), e.onMouseEnter = e.onMouseEnter.bind(L(e)), e.onMouseLeave = e.onMouseLeave.bind(L(e)), e.subLinks = Array.from(e.view.querySelectorAll(".js-experiences-link")), e.imgWrapper = e.view.querySelector(".js-experiences-imgWrapper"), e.imgsLoaded = {}, e.currentId = null, e.currentImg = null, e.addListeners(), e
+							}(this, i), e = r.call(this, t), h.a.dispatch(b.a.BG_SET_COLOR, "#ffe500"), document.documentElement.style.setProperty("--bg-color", "#ffe500"), document.documentElement.style.setProperty("--theme-color", "var(--light)"), e.onMouseEnter = e.onMouseEnter.bind(L(e)), e.onMouseLeave = e.onMouseLeave.bind(L(e)), e.subLinks = Array.from(e.view.querySelectorAll(".js-experiences-link")), e.imgWrapper = e.view.querySelector(".js-experiences-imgWrapper"), e.imgsLoaded = {}, e.currentId = null, e.currentImg = null, e.addListeners(), e
 						}
 						return e = i, (n = [{
 							key: "addListeners",
@@ -20780,7 +20779,7 @@
 					function t(e, n) {
 						! function(t, e) {
 							if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
-						}(this, t), this.gl = e, this.scene = n, this.color = "white", this.transitionDuration = 1, this.init()
+						}(this, t), this.gl = e, this.scene = n, this.color = "#ffe500", this.transitionDuration = 1, this.init()
 					}
 					var e, n, o;
 					return e = t, (n = [{
@@ -21598,7 +21597,7 @@
 					var g = new Image;
 					return g.onload = function() {
 						n.appBackgroundCanvas.setTexture(g.src), n.appFrontParticles.setTexture(g)
-					}, g.src = "/wp-content/themes/schweppes/assets/images/canvas/bubble.png", h.a.addListener(y.a.ROUTER_BEFORE_ENTER, n.onAfterEnter.bind(St(n))), n
+					}, g.src = "wp-content/themes/schweppes/assets/images/canvas/bubble.png", h.a.addListener(y.a.ROUTER_BEFORE_ENTER, n.onAfterEnter.bind(St(n))), n
 				}
 				return e = v, (n = [{
 					key: "onAfterEnter",
