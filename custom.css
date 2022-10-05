@@ -1,6 +1,29 @@
-.products_mobile{
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 0;
-    font-size: 50px;
+.products_mobile {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #e14b4d;
+}
+
+.js-experiences-btn {
+  visibility: 0 ;
 }

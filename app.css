@@ -162,7 +162,7 @@
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-	font-family:  'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: var(--swiper-navigation-size);
 	text-transform: none !important;
 	letter-spacing: 0;
@@ -195,7 +195,7 @@
 
 .swiper-button-next.swiper-button-white,
 .swiper-button-prev.swiper-button-white {
-	--swiper-navigation-color: #fff
+	--swiper-navigation-color: #ededed
 }
 
 .swiper-button-next.swiper-button-black,
@@ -363,7 +363,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-white {
-	--swiper-pagination-color: #fff
+	--swiper-pagination-color: #ededed
 }
 
 .swiper-pagination-black {
@@ -455,7 +455,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-lazy-preloader-white {
-	--swiper-preloader-color: #fff
+	--swiper-preloader-color: #ededed
 }
 
 .swiper-lazy-preloader-black {
@@ -685,12 +685,12 @@ html.is-no-js noscript {
 }
 
 html.is-no-js noscript div {
-	background-color: #fff;
+	background-color: #ededed;
 	padding: 20px
 }
 
 :root {
-	font-family:  'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1;
@@ -710,7 +710,7 @@ html.is-no-js noscript div {
 
 ::selection {
 	background-color: #000;
-	color: #fff;
+	color: #ededed;
 	text-shadow: none
 }
 
@@ -1561,8 +1561,8 @@ html {
 	font-weight: 400;
 	width: 100%;
 	--light: #000;
-	--dark: #fff;
-	--bg-color: #ffe500;
+	--dark: #ededed;
+	--bg-color: #ededed;
 	--theme-color: var(--light)
 }
 
@@ -1577,7 +1577,7 @@ body {
 	background-color: var(--bg-color);
 	-webkit-overflow-scrolling: touch;
 	overflow-y: scroll;
-	font-family:  'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
@@ -1638,7 +1638,7 @@ div[class^=guify-container] {
 }
 
 @font-face {
-	font-family:  'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	src: url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-Regular.eot);
 	src: url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-Regular.eot?iefix) format("embedded-opentype"), url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-Regular.svg#EuclidCircularB-Regular) format("svg"), url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-Regular.woff) format("woff"), url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-Regular.ttf) format("truetype");
 	font-weight: 400;
@@ -1646,7 +1646,7 @@ div[class^=guify-container] {
 }
 
 @font-face {
-	font-family:  'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	src: url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-SemiBold.eot);
 	src: url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-SemiBold.eot?iefix) format("embedded-opentype"), url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-SemiBold.svg#EuclidCircularB-SemiBold) format("svg"), url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-SemiBold.woff) format("woff"), url(/wp-content/themes/schweppes/assets/fonts/EuclidCircularB-SemiBold.ttf) format("truetype");
 	font-weight: 600;
@@ -1883,9 +1883,9 @@ div[class^=guify-container] {
 	border-radius: 40px;
 	overflow: hidden;
 	transform: translateZ(0);
-	mask-image: -webkit-radial-gradient(#fff, #000);
+	mask-image: -webkit-radial-gradient(#ededed, #000);
 	color: #000;
-	background-color: #fff;
+	background-color: #ededed;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95)
 }
 
@@ -1937,7 +1937,7 @@ div[class^=guify-container] {
 .is-no-touchevents .o-button:not(.is-disabled):hover,
 .is-no-touchevents .o-button:not(:disabled):hover {
 	color: #E14B4D;
-	background-color: #fff;
+	background-color: #ededed;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
 
@@ -1955,7 +1955,7 @@ div[class^=guify-container] {
 .is-tab-mode .o-button:not(.is-disabled):focus,
 .is-tab-mode .o-button:not(:disabled):focus {
 	color: #E14B4D;
-	background-color: #fff;
+	background-color: #ededed;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
 
@@ -1972,7 +1972,7 @@ div[class^=guify-container] {
 
 .o-button.is-open {
 	color: #E14B4D;
-	background-color: #fff;
+	background-color: #ededed;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
 
@@ -1992,14 +1992,14 @@ div[class^=guify-container] {
 	align-items: center;
 	width: 40px;
 	height: 40px;
-	border: 2px solid #000;
+	border: 2px solid #ededed;
 	border-radius: 50%;
 	overflow: hidden;
-	mask-image: -webkit-radial-gradient(#fff, #fff);
+	mask-image: -webkit-radial-gradient(#ededed, #ededed);
 	font-size: max(14px, .972vw);
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #ffff;
+	color: #ededed;
 	background-color: #E14B4D;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95)
 }
@@ -2020,7 +2020,7 @@ div[class^=guify-container] {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
-	fill: #fff;
+	fill: #ededed;
 	transition: fill .3s cubic-bezier(.445, .05, .55, .95)
 }
 
@@ -2046,11 +2046,11 @@ div[class^=guify-container] {
 
 .o-icon--ghost {
 	background-color: transparent;
-	border-color: #fff
+	border-color: #ededed
 }
 
 .o-icon--ghost span svg {
-	fill: #fff
+	fill: #ededed
 }
 
 .o-icon:before {
@@ -2069,7 +2069,7 @@ div[class^=guify-container] {
 
 .is-no-touchevents .o-icon:not(.is-disabled):hover,
 .is-no-touchevents .o-icon:not(:disabled):hover {
-	color: #ffe500;
+	color: #ffff;
 	background-color: #000;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
@@ -2082,12 +2082,12 @@ div[class^=guify-container] {
 
 .is-no-touchevents .o-icon:not(.is-disabled):hover svg,
 .is-no-touchevents .o-icon:not(:disabled):hover svg {
-	fill: #ffe500
+	fill: #ffff
 }
 
 .is-tab-mode .o-icon:not(.is-disabled):focus,
 .is-tab-mode .o-icon:not(:disabled):focus {
-	color: #ffe500;
+	color: #ededed;
 	background-color: #000;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
@@ -2100,7 +2100,7 @@ div[class^=guify-container] {
 
 .is-tab-mode .o-icon:not(.is-disabled):focus svg,
 .is-tab-mode .o-icon:not(:disabled):focus svg {
-	fill: #ffe500
+	fill: #ededed
 }
 
 .generic__content a,
@@ -2241,7 +2241,7 @@ div[class^=guify-container] {
 
 .notfound__inner {
 	position: relative;
-	color: #fff;
+	color: #ededed;
 	text-align: center;
 	padding: 0 40px
 }
@@ -2266,7 +2266,7 @@ div[class^=guify-container] {
 .experience__intro {
 	display: flex;
 	padding: 14% 80px 19%;
-	color: #fff
+	color: #ededed
 }
 
 .experience__intro.is-dark {
@@ -2573,7 +2573,7 @@ div[class^=guify-container] {
 
 .is-no-touchevents .experience__recipeProduct:not(.is-disabled):hover .experience__recipeCta .o-icon,
 .is-no-touchevents .experience__recipeProduct:not(:disabled):hover .experience__recipeCta .o-icon {
-	color: #ffe500;
+	color: #ededed;
 	background-color: #000;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
@@ -2586,7 +2586,7 @@ div[class^=guify-container] {
 
 .is-no-touchevents .experience__recipeProduct:not(.is-disabled):hover .experience__recipeCta .o-icon svg,
 .is-no-touchevents .experience__recipeProduct:not(:disabled):hover .experience__recipeCta .o-icon svg {
-	fill: #ffe500
+	fill: #ededed
 }
 
 .is-tab-mode .experience__recipeProduct:not(.is-disabled):focus .experience__recipeBubble img,
@@ -2596,7 +2596,7 @@ div[class^=guify-container] {
 
 .is-tab-mode .experience__recipeProduct:not(.is-disabled):focus .experience__recipeCta .o-icon,
 .is-tab-mode .experience__recipeProduct:not(:disabled):focus .experience__recipeCta .o-icon {
-	color: #ffe500;
+	color: #ededed;
 	background-color: #000;
 	transition: color .3s cubic-bezier(.445, .05, .55, .95), background-color .1s linear .2s
 }
@@ -2609,7 +2609,7 @@ div[class^=guify-container] {
 
 .is-tab-mode .experience__recipeProduct:not(.is-disabled):focus .experience__recipeCta .o-icon svg,
 .is-tab-mode .experience__recipeProduct:not(:disabled):focus .experience__recipeCta .o-icon svg {
-	fill: #ffe500
+	fill: #ededed
 }
 
 .experience__recipeBubble {
@@ -2773,7 +2773,7 @@ div[class^=guify-container] {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	color: #fff
+	color: #ededed
 }
 
 @media only screen and (max-width:810px) {
@@ -3106,7 +3106,7 @@ div[class^=guify-container] {
 }
 
 [data-theme=light] .experience__collabArtist .bubble .c-gooey--overlay .c-gooey__item:after {
-	background-color: #fff
+	background-color: #ededed
 }
 
 .experience__collabArtist .infos {
@@ -3234,7 +3234,7 @@ div[class^=guify-container] {
 .is-no-touchevents .experience__videoButton:not(:disabled):hover svg,
 .is-tab-mode .experience__videoButton:not(.is-disabled):focus svg,
 .is-tab-mode .experience__videoButton:not(:disabled):focus svg {
-	stroke: #ffe500
+	stroke: #ededed
 }
 
 @media only screen and (max-width:1024px) {
@@ -3290,7 +3290,7 @@ div[class^=guify-container] {
 }
 
 .experiences.is-hover .experiences__list {
-	color: #fff
+	color: #ededed
 }
 
 .experiences__bg {
@@ -3526,7 +3526,7 @@ div[class^=guify-container] {
 }
 
 .product__hero.is-dark {
-	color: #fff
+	color: #ededed
 }
 
 .product__heroWrapper {
@@ -3616,7 +3616,7 @@ div[class^=guify-container] {
 }
 
 .product__content {
-	color: #fff
+	color: #ededed
 }
 
 .product__content.is-dark,
@@ -3899,7 +3899,7 @@ div[class^=guify-container] {
 }
 
 .c-experiencesDropdown.is-hover .o-dropdown__list {
-	color: #fff
+	color: #ededed
 }
 
 .c-experiencesDropdown__bg {
@@ -3931,6 +3931,10 @@ div[class^=guify-container] {
 	opacity: .5
 }
 
+.js-experiences-btn {
+	display: none;
+}
+
 .c-experiencesDropdown__bg img {
 	position: absolute;
 	top: 0;
@@ -3952,7 +3956,7 @@ div[class^=guify-container] {
 
 .c-footer {
 	position: relative;
-	color: #fff;
+	color: #ededed;
 	background-color: #000;
 	z-index: 1
 }
@@ -4036,7 +4040,7 @@ div[class^=guify-container] {
 	width: 16px;
 	height: 16px;
 	margin-left: 10px;
-	fill: #fff
+	fill: #ededed
 }
 
 .c-frontParticles {
@@ -4177,7 +4181,7 @@ div[class^=guify-container] {
 
 .c-header__burger span {
 	display: block;
-	background-color: #000;
+	background-color: #ededed;
 	height: 2px;
 	width: 14px;
 	position: absolute;
@@ -4205,7 +4209,7 @@ div[class^=guify-container] {
 .is-no-touchevents .c-header__burger:not(:disabled):hover span,
 .is-tab-mode .c-header__burger:not(.is-disabled):focus span,
 .is-tab-mode .c-header__burger:not(:disabled):focus span {
-	background-color: #ffe500
+	background-color: #ededed
 }
 
 .c-header__burger.is-open span {
@@ -4554,12 +4558,12 @@ div[class^=guify-container] {
 }
 
 .example {
-	color: #fff
+	color: #ededed
 }
 
 .c-experienceCarousel {
 	height: calc(100vh - 80px);
-	color: #fff
+	color: #ededed
 }
 
 .c-experienceCarousel.is-active .anim {
@@ -4663,7 +4667,7 @@ div[class^=guify-container] {
 	width: 100%;
 	height: 100%;
 	padding: 40px 0;
-	color: #fff
+	color: #ededed
 }
 
 @media only screen and (max-width:1023px) {
@@ -4816,7 +4820,7 @@ div[class^=guify-container] {
 	position: relative;
 	margin: 0 10px !important;
 	opacity: 1;
-	background: #fff
+	background: #ededed
 }
 
 .c-experienceCarousel__pagination .swiper-pagination-bullet:after {
@@ -4827,7 +4831,7 @@ div[class^=guify-container] {
 	z-index: -1;
 	width: 20px;
 	height: 20px;
-	background-color: #ffe500;
+	background-color: #ededed;
 	border: 2px solid #000;
 	border-radius: 50%;
 	opacity: 0;
@@ -4885,7 +4889,7 @@ div[class^=guify-container] {
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	color: #fff;
+	color: #ededed;
 	height: 100vh;
 	height: calc(var(--vh, 1vh)*100);
 	overflow: hidden
@@ -5004,7 +5008,7 @@ div[class^=guify-container] {
 	width: 100%;
 	height: 100%;
 	padding: 40px;
-	color: #fff
+	color: #ededed
 }
 
 @media only screen and (max-width:1023px) {
@@ -5099,7 +5103,7 @@ div[class^=guify-container] {
 	position: relative;
 	margin: 0 10px !important;
 	opacity: 1;
-	background: #fff
+	background: #ededed
 }
 
 .c-experiencesPush__pagination .swiper-pagination-bullet:after {
@@ -5110,7 +5114,7 @@ div[class^=guify-container] {
 	z-index: -1;
 	width: 20px;
 	height: 20px;
-	background-color: #ffe500;
+	background-color: #ededed;
 	border: 2px solid #000;
 	border-radius: 50%;
 	opacity: 0;
@@ -5253,7 +5257,7 @@ div[class^=guify-container] {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #ffe500;
+	background-color: #ededed;
 	z-index: -1;
 	opacity: 0
 }
@@ -5502,7 +5506,7 @@ div[class^=guify-container] {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	color: #fff;
+	color: #ededed;
 	opacity: 0;
 	transform: translateY(20px) translateZ(0);
 	transition: opacity .6s cubic-bezier(.215, .61, .355, 1) .6s, transform .6s cubic-bezier(.215, .61, .355, 1) .6s
@@ -5635,7 +5639,7 @@ div[class^=guify-container] {
 }
 
 .c-homeTitleContainer__item.is-dark {
-	color: #fff
+	color: #ededed
 }
 
 @media only screen and (max-width:1024px) {
@@ -5646,7 +5650,7 @@ div[class^=guify-container] {
 
 .c-homeExperiences {
 	position: relative;
-	color: #fff;
+	color: #ededed;
 	margin-bottom: 15vh;
 	z-index: 1;
 	height: 101vh
@@ -6125,7 +6129,7 @@ div[class^=guify-container] {
 .c-legalAge__formItem select:-webkit-autofill:active,
 .c-legalAge__formItem select:-webkit-autofill:focus,
 .c-legalAge__formItem select:-webkit-autofill:hover {
-	box-shadow: 0 0 0 30px #ffe500 inset !important
+	box-shadow: 0 0 0 30px #ededed inset !important
 }
 
 .c-legalAge__formItem input:placeholder-shown+label {
@@ -6159,7 +6163,7 @@ div[class^=guify-container] {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #ffe500;
+	background-color: #ededed;
 	z-index: -1;
 	opacity: 0
 }
@@ -6240,7 +6244,7 @@ div[class^=guify-container] {
 }
 
 .c-newChip.is-light {
-	--color: #fff
+	--color: #ededed
 }
 
 .c-newChip.is-dark {
@@ -6276,7 +6280,7 @@ div[class^=guify-container] {
 	align-items: stretch;
 	padding: 0 40px;
 	background-color: var(--block-bg);
-	color: #fff
+	color: #ededed
 }
 
 .c-nextProduct--dark {
@@ -6399,7 +6403,7 @@ div[class^=guify-container] {
 
 .c-productNutritional__container {
 	color: #000;
-	background: #fff;
+	background: #ededed;
 	font-size: 12px;
 	font-family: sans-serif;
 	line-height: 1.5;
@@ -6570,7 +6574,7 @@ div[class^=guify-container] {
 	position: absolute;
 	bottom: 0;
 	width: 120px;
-	border: 2px solid #fff;
+	border: 2px solid #ededed;
 	border-radius: 50%;
 	background-color: var(--sIColor)
 }
@@ -6653,5 +6657,5 @@ div[class^=guify-container] {
 	transform: translate(-50%, -50%);
 	width: 60px;
 	height: 60px;
-	fill: #fff
+	fill: #ededed
 }
